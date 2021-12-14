@@ -42,7 +42,7 @@ export default new Vuex.Store({
       state.items[data].edit = false
     },
     start (state) {
-      state.current = state.break ? '休息一下' : state.items.shift().name
+      state.current = state.break ? '喘息片刻' : state.items.shift().name
     },
     countdown (state) {
       state.timeleft--
